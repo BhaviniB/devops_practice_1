@@ -41,7 +41,7 @@ spec:
   selector:
     app: app-practice-1
   ports:
-    protocol: TCP
-    port: 80
-    targetPort: 90
+    - protocol: TCP
+      port: 80
+      targetPort: 90
   type: LoadBalancer
