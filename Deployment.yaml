@@ -1,0 +1,47 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-settings-practice-1
+  namespace: practice_1
+data:
+  API_URL: "BLAH"
+  ENVIRONMENT: "DEV"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-settings-practice-1-deployment
+  namespace: practice_1
+  labels:
+    app: app-practice-1
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: app-practice-1
+  template:
+    metadata:
+      labels:
+        app: app-practice-1
+    spec:
+      containers:
+        - name: app-practice-1
+          image: bhavinibatra/practice_1_master:latest
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app-practice-1
+  namespace: practice_1
+spec:
+  selector:
+    app: app-practice-1
+  ports:
+    protocol: TCP
+    port: 80
+    targetPort: 90
+  type: LoadBalancer
