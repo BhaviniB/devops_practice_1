@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NAGP\\DevOps Kuber\\app_bhavinibatra\\TestProject2\\TestProject2.csproj": {}
+    "D:\\NAGP\\Prep\\devops_practice_1\\TestProject2\\TestProject2.csproj": {}
   },
   "projects": {
-    "D:\\NAGP\\DevOps Kuber\\app_bhavinibatra\\TestProject2\\TestProject2.csproj": {
+    "D:\\NAGP\\Prep\\devops_practice_1\\TestProject2\\TestProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NAGP\\DevOps Kuber\\app_bhavinibatra\\TestProject2\\TestProject2.csproj",
+        "projectUniqueName": "D:\\NAGP\\Prep\\devops_practice_1\\TestProject2\\TestProject2.csproj",
         "projectName": "TestProject2",
-        "projectPath": "D:\\NAGP\\DevOps Kuber\\app_bhavinibatra\\TestProject2\\TestProject2.csproj",
+        "projectPath": "D:\\NAGP\\Prep\\devops_practice_1\\TestProject2\\TestProject2.csproj",
         "packagesPath": "C:\\Users\\bhavinibatra\\.nuget\\packages\\",
-        "outputPath": "D:\\NAGP\\DevOps Kuber\\app_bhavinibatra\\TestProject2\\obj\\",
+        "outputPath": "D:\\NAGP\\Prep\\devops_practice_1\\TestProject2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\NAGP\\DevOps Kuber\\app_bhavinibatra\\WebApplication4\\WebApplication4.csproj": {
-                "projectPath": "D:\\NAGP\\DevOps Kuber\\app_bhavinibatra\\WebApplication4\\WebApplication4.csproj"
+              "D:\\NAGP\\Prep\\devops_practice_1\\WebApplication4\\WebApplication4.csproj": {
+                "projectPath": "D:\\NAGP\\Prep\\devops_practice_1\\WebApplication4\\WebApplication4.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "D:\\NAGP\\DevOps Kuber\\app_bhavinibatra\\WebApplication4\\WebApplication4.csproj": {
+    "D:\\NAGP\\Prep\\devops_practice_1\\WebApplication4\\WebApplication4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NAGP\\DevOps Kuber\\app_bhavinibatra\\WebApplication4\\WebApplication4.csproj",
+        "projectUniqueName": "D:\\NAGP\\Prep\\devops_practice_1\\WebApplication4\\WebApplication4.csproj",
         "projectName": "WebApplication4",
-        "projectPath": "D:\\NAGP\\DevOps Kuber\\app_bhavinibatra\\WebApplication4\\WebApplication4.csproj",
+        "projectPath": "D:\\NAGP\\Prep\\devops_practice_1\\WebApplication4\\WebApplication4.csproj",
         "packagesPath": "C:\\Users\\bhavinibatra\\.nuget\\packages\\",
-        "outputPath": "D:\\NAGP\\DevOps Kuber\\app_bhavinibatra\\WebApplication4\\obj\\",
+        "outputPath": "D:\\NAGP\\Prep\\devops_practice_1\\WebApplication4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
